@@ -1,0 +1,25 @@
+# CSE 241 Lab Autograding and Turn-in Control File
+
+# Lines beginning with '#' are ignored as comments.
+
+# Uncomment exactly one of the following two lines to indicate your
+# implementation language for the lab. (Default is Java.)
+
+# @java
+# @c++
+
+# Uncomment the following line to enable testing/grading of the
+# extra credit section of your lab by the autograder.
+
+# @extra
+
+# Uncomment the following line to enable testing by the autograder,
+# without actually turning in your lab for testing.
+
+# @test
+
+# Uncomment this line to submit your lab for grading.  (Warning:
+# once you uncomment this line, any subsequent changes to your
+# lab may not be seen by the graders!)
+
+# @grade

@@ -1,0 +1,2 @@
+0 STL {BNA, ORD, ABQ}
+0 SEA {TPA, PVD}

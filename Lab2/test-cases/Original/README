@@ -1,0 +1,106 @@
+README FOR TEST CASES
+
+Here are some test cases on which to exercise your hash table code.
+
+** CASE 1
+
+These are some very short sequences that I made up just to help you test your
+implementation.  If you use match length = 4, you should get the following
+output:
+
+7 3 tacc
+7 17 tacc
+8 4 accc
+9 5 ccca
+12 10 atag
+13 11 tagg
+19 20 catt
+20 21 atta
+21 22 ttag
+25 4 accc
+
+
+** CASE 2
+
+These sequences contain the human and mouse genes for preproinsulin, the
+protein that is processed into the insulin hormone that regulates blood
+sugar.  
+
+If you use match length = 16, you should get the following output:
+
+151 156 gtctagttgcagtagt
+152 157 tctagttgcagtagtt
+153 158 ctagttgcagtagttc
+154 159 tagttgcagtagttct
+155 160 agttgcagtagttctc
+156 161 gttgcagtagttctcc
+157 162 ttgcagtagttctcca
+158 163 tgcagtagttctccag
+159 164 gcagtagttctccagc
+160 165 cagtagttctccagct
+161 166 agtagttctccagctg
+162 167 gtagttctccagctgg
+163 168 tagttctccagctggt
+164 169 agttctccagctggta
+165 170 gttctccagctggtag
+166 171 ttctccagctggtaga
+167 172 tctccagctggtagag
+168 173 ctccagctggtagagg
+169 174 tccagctggtagaggg
+170 175 ccagctggtagaggga
+171 176 cagctggtagagggag
+172 177 agctggtagagggagc
+173 178 gctggtagagggagca
+174 179 ctggtagagggagcag
+175 180 tggtagagggagcaga
+176 181 ggtagagggagcagat
+177 182 gtagagggagcagatg
+178 183 tagagggagcagatgc
+179 184 agagggagcagatgct
+180 185 gagggagcagatgctg
+181 186 agggagcagatgctgg
+182 187 gggagcagatgctggt
+211 216 acaatgccacgcttct
+212 217 caatgccacgcttctg
+213 218 aatgccacgcttctgc
+817 1121 tgggtgtgtagaagaa
+818 1122 gggtgtgtagaagaag
+819 1123 ggtgtgtagaagaagc
+820 1124 gtgtgtagaagaagcc
+939 1243 gccagcaggggcagga
+956 1260 gcgcatccacagggcc
+957 1261 cgcatccacagggcca
+958 1262 gcatccacagggccat
+959 1263 catccacagggccatg
+
+From the output you see here, can you guess approximately which parts of
+the two sequences encode the gene?  Hint: sequences that encode a common
+gene tend to differ less than sequences that do not.  Also, a gene can
+occur in multiple pieces (called "exons") with gaps in between.
+
+** CASE 3
+
+These sequences come from the mnd2 locus.  The mnd2 gene encodes a
+protein important to correct functioning of the nerves that carry
+impulses from the brain to the muscles.  In mice, mutations in this
+gene cause "motor neuron degeneration 2" syndrome, which is closely
+related to certain kinds of muscular dystrophy in humans.
+ 
+The two sequences in this case come from the human and mouse genomes.
+There is no mask sequence.  If you use match length = 18, you should
+get 22 matches.
+
+
+** CASE 4
+
+These sequences come from the human and mouse HOX-D loci. HOX genes
+are essential to early development; they control important stuff like
+which bits of your body have arms and legs attached.  In fruit flies,
+a mutation in one of these genes produces a fly that sprouts legs on
+its head, where its anntenae should be!
+ 
+I've removed the common repeats in these sequences with a program
+called RepeatMasker, which replaces them with n's.  There is a mask
+sequence that filters out most (sadly, not all) of the matches between
+these n's.  This locus contains regions of very high similarity, so to
+avoid generating huge amounts of output, use match length = 180.

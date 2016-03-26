@@ -1,0 +1,84 @@
+# Query 1
+@DIR/lab3b/airports.txt @DIR/lab3b/flights.txt @DIR/lab3b/query1.txt
+Read 23 airports
+Read 1354 flights
+> SEA to {TPA, BOS, DCA, SFO}?
+SEA
+---> DFW (AA-396, 09:12-12:45, 3 hours and 33 minutes)
+---> TPA (DL-276, 13:24-15:30, 2 hours and 6 minutes)
+@LENGTH = 339 minutes
+
+SEA
+---> STL (TW-80, 10:12-13:57, 3 hours and 45 minutes)
+---> BOS (TW-184, 03:00-05:25, 2 hours and 25 minutes)
+@LENGTH = 370 minutes
+
+SEA
+---> STL (TW-80, 10:12-13:57, 3 hours and 45 minutes)
+---> MSP (NW-707, 14:00-15:30, 1 hours and 30 minutes)
+---> DCA (NW-106, 03:30-05:39, 2 hours and 9 minutes)
+@LENGTH = 444 minutes
+
+SEA
+---> PHX (AS-612, 19:15-21:55, 2 hours and 40 minutes)
+---> ABQ (WN-801, 06:30-07:30, 1 hours)
+---> SFO (WN-965, 22:05-00:25, 2 hours and 20 minutes)
+@LENGTH = 360 minutes
+
+//
+
+# Query 2
+@DIR/lab3b/airports.txt @DIR/lab3b/flights.txt @DIR/lab3b/query2.txt
+Read 23 airports
+Read 1354 flights
+> STL to {TPA, DEN, PVD, ABQ}?
+STL
+---> DFW (AA-1405, 03:40-05:21, 1 hours and 41 minutes)
+---> TPA (DL-276, 13:24-15:30, 2 hours and 6 minutes)
+@LENGTH = 227 minutes
+
+STL
+---> PHL (US-272, 13:15-15:08, 1 hours and 53 minutes)
+---> DEN (CO-467, 23:40-03:45, 4 hours and 5 minutes)
+@LENGTH = 358 minutes
+
+STL
+---> MSP (NW-707, 14:00-15:30, 1 hours and 30 minutes)
+---> DCA (NW-106, 03:30-05:39, 2 hours and 9 minutes)
+---> PVD (US-452, 22:00-23:10, 1 hours and 10 minutes)
+@LENGTH = 289 minutes
+
+STL
+---> ABQ (WN-343, 16:40-19:10, 2 hours and 30 minutes)
+@LENGTH = 150 minutes
+
+//
+
+# Query 3
+@DIR/lab3b/airports.txt @DIR/lab3b/flights.txt @DIR/lab3b/query3.txt
+Read 23 airports
+Read 1354 flights
+> BNA to {STL, ABQ, JFK, PVD}?
+BNA
+---> ATL (DL-511, 22:50-23:44, 54 minutes)
+---> MSY (DL-991, 04:32-05:50, 1 hours and 18 minutes)
+---> STL (TW-556, 15:04-16:50, 1 hours and 46 minutes)
+@LENGTH = 238 minutes
+
+BNA
+---> HOU (WN-455, 04:55-06:40, 1 hours and 45 minutes)
+---> ABQ (WN-592, 13:50-15:50, 2 hours)
+@LENGTH = 225 minutes
+
+BNA
+---> ORD (AA-1285, 16:47-18:15, 1 hours and 28 minutes)
+---> JFK (UA-150, 22:14-00:22, 2 hours and 8 minutes)
+@LENGTH = 216 minutes
+
+BNA
+---> ATL (DL-511, 22:50-23:44, 54 minutes)
+---> DCA (DL-314, 12:25-13:55, 1 hours and 30 minutes)
+---> PVD (US-452, 22:00-23:10, 1 hours and 10 minutes)
+@LENGTH = 214 minutes
+
+//
