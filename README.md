@@ -1,4 +1,4 @@
-## Algorithms_Data_Structures
+## Algorithms Data Structures
 
 For more information, feel free to look at the reports below:
 
